@@ -21,7 +21,7 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'ARMpractice'
+    azureResourceManagerConnection: 'ARMtemp'
     subscriptionId: 'f87aaef8-047b-488d-bf1c-b9837e226a9f'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'SnehaARM'
